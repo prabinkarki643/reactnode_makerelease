@@ -9,6 +9,7 @@ reset=`tput sgr0`
 echo "${yellow}....Making Release Started....${reset}"
 
 # making release directory and copying core node code inside it to serve react build
+rm -rf release
 mkdir release
 cp -R .reactnode_makerelease/node/. ./release
 
