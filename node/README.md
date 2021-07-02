@@ -1,7 +1,22 @@
-# This only a release build code using react js and express js
+# Node React Release Build
 
-## To run the code
+Node js code that will serve the react build in the port specify inside .env file.
 
+#### feel free to change the PORT according to your need.
+## Running Server
 
-### `npm start`
-run the express server to serve static build folder (used node server.js)
+Using node & script (foreground)
+
+```bash
+  npm start
+```
+
+Using pm2 & script (background)
+
+```bash
+pm2 start npm --name "myApp" -- run "start:test"
+
+pm2 start npm --name "myApp" -- run "start:staging"
+
+pm2 start npm --name "myApp" -- run "start:production"
+```
