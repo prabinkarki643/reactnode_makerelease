@@ -1,7 +1,7 @@
 
 # React-Node Release Build Maker
 
-This code contains the core node js code to serve react build and sh file to make a final release build with both node and react combined.
+This code contains the core node js code to serve react build and sh file to make a final release build with both node and react combined.which will be used later in aws ec2 instance or any other terminal based web hosting
 
 
 ## Features
