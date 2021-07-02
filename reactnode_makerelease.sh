@@ -33,7 +33,7 @@ cd release
 # initialized git
 git init
 # Set remote origin
-git remote set-url origin "$CURRENT_ORIGIN"
+git remote add origin "$CURRENT_ORIGIN"
 
 # Get prefer branch name
 DEFAULT_BRANCH_NAME="frontend-release"
