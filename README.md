@@ -29,7 +29,7 @@ download zip of this file and put it into your react root directory as dot file 
 **Server:** Node, Express, Git, Bash, Shell Script
 ## Authors
 
-- [@githubprabin143](https://github.com/githubprabin143)
+- [@githubprabin143](https://github.com/githubprabin143/reactnode_makerelease)
 
   
 ## License
