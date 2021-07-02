@@ -14,7 +14,7 @@ cp -R .reactnode_makerelease/node/. ./release
 
 # making react build
 echo "${yellow}....Making React Build....${reset}"
-# npm run build || exit 1
+npm run build || exit 1
 echo "${green}....Build Succedded....${reset}"
 
 # copying build to release directory
